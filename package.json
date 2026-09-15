@@ -1,0 +1,33 @@
+{
+  "name": "serverest-api-e2e",
+  "version": "1.0.0",
+  "description": "Testes automatizados de API (E2E) para o ServeRest, usando Jest + Supertest.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --testPathPatterns=tests/ --runInBand",
+    "test:auth": "jest --testPathPatterns=tests/auth/ --runInBand",
+    "test:users": "jest --testPathPatterns=tests/users/ --runInBand",
+    "test:products": "jest --testPathPatterns=tests/products/ --runInBand",
+    "test:cart": "jest --testPathPatterns=tests/cart/ --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^10.4.0",
+    "supertest": "^7.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.6.0",
+    "@types/supertest": "^7.2.0",
+    "babel-jest": "^30.3.0",
+    "jest": "^30.3.0",
+    "jest-html-reporters": "^3.1.7",
+    "ts-jest": "^29.4.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}
