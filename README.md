@@ -71,6 +71,9 @@ reports/report.html
 
 A pasta `reports/` não é versionada, pois contém arquivos gerados a cada execução.
 
+![0](image.png)
+![1](image-1.png)
+
 ## Estrutura do projeto
 
 ```text
